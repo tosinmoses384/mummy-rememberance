@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mummy's 1 Year Remembrance – Plan</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 16px;
+      background: #f8f4f0;
+      color: #222;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 8px;
+    }
+    .subtitle { text-align: center; font-size: 16px; color: #555; margin-bottom: 24px; }
+    section {
+      background: #fff;
+      padding: 16px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    h2 {
+      font-size: 20px;
+      color: #333;
+      margin: 0 0 12px 0;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #c9a959;
+    }
+    ul { margin: 0; padding-left: 24px; }
+    li { margin: 10px 0; }
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 8px 0;
+      padding: 12px 10px;
+      min-height: 48px;
+      cursor: pointer;
+      border-radius: 8px;
+      -webkit-tap-highlight-color: rgba(201, 169, 89, 0.3);
+      transition: background 0.15s ease;
+    }
+    .row:hover { background: #f5f0e8; }
+    .row:active { background: #ebe5da; }
+    .row input[type="checkbox"] {
+      width: 26px;
+      height: 26px;
+      margin: 0;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+    .row span { flex: 1; }
+    .amount { font-weight: bold; color: #0a5f0a; }
+    .total { font-size: 20px; font-weight: bold; margin-top: 12px; }
+    .note { background: #fff9e6; padding: 10px; border-radius: 6px; margin-top: 10px; font-size: 16px; }
+    .person { background: #e8f4e8; }
+    @media print { body { background: #fff; } section { box-shadow: none; border: 1px solid #ddd; } }
+  </style>
+</head>
+<body>
+
+  <h1>Mummy's 1 Year Remembrance</h1>
+  <p class="subtitle"><strong>Saturday, 18th April 2026</strong></p>
+  <p class="subtitle">Event plan – tick each item when it is done</p>
+
+  <!-- PROGRAM FOR THE DAY -->
+  <section>
+    <h2>Program for the day</h2>
+    <p><strong>Church:</strong> MOBOLUWADURO BAPTIST CHURCH OKE-BAAKI, OGBOMOSO.</p>
+    <p><strong>Venue:</strong> WATER SIDE (FIELD) OWODE COMMUNITY GRAMMAR SCHOOL SCHOOL 1, OGBOMOSO.</p>
+    <label class="row"><input type="checkbox" id="p1"><span>Morning: Church until noon</span></label>
+    <label class="row"><input type="checkbox" id="p2"><span>Afternoon: Move to event venue</span></label>
+  </section>
+
+  <!-- FOOD ITEMS TO BUY (INGREDIENTS) -->
+  <section>
+    <h2>Food items to buy (ingredients)</h2>
+    <label class="row"><input type="checkbox" id="f1"><span>Elubo – 1 bag – <span class="amount">₦270,000</span></span></label>
+    <label class="row"><input type="checkbox" id="f2"><span>Groundnut oil – 3 gallons – <span class="amount">₦195,000</span></span></label>
+    <label class="row"><input type="checkbox" id="f3"><span>Red oil – 2 gallons – <span class="amount">₦140,000</span></span></label>
+    <label class="row"><input type="checkbox" id="f4"><span>White corn and white elubo – <span class="amount">₦240,000</span></span></label>
+    <label class="row"><input type="checkbox" id="f5"><span>Egusi – 10 mudu – <span class="amount">₦30,000</span></span></label>
+    <label class="row"><input type="checkbox" id="f6"><span>Maggi, curry, salt, thyme, tin tomatoes, leather for wrapping swallow, bay leaf, spices – <span class="amount">₦300,000</span></span></label>
+    <p class="total">Total for food items: <span class="amount">₦1,175,000</span></p>
+    <p class="note">Note: Meeting said we will buy 2 big bags of elubo.</p>
+  </section>
+
+  <!-- FOOD FOR D-DAY (MENU) -->
+  <section>
+    <h2>Food for the D-day (menu)</h2>
+    <label class="row"><input type="checkbox" id="m1"><span>Amala & gbegiri and oyoyo</span></label>
+    <label class="row"><input type="checkbox" id="m2"><span>Jollof rice</span></label>
+    <label class="row"><input type="checkbox" id="m3"><span>Semo and egusi or Ogbomoso soups</span></label>
+  </section>
+
+  <!-- VENUE -->
+  <section>
+    <h2>Venue</h2>
+    <p><strong>WATER SIDE (FIELD) OWODE COMMUNITY GRAMMAR SCHOOL SCHOOL 1, OGBOMOSO.</strong></p>
+    <label class="row"><input type="checkbox" id="v1"><span>Book event venue – <span class="amount">₦800,000</span></span></label>
+    <label class="row"><input type="checkbox" id="v2"><span>Clarify with event center: does this cover AC, generator/diesel, security? Get breakdown.</span></label>
+  </section>
+
+  <!-- CHURCH -->
+  <section>
+    <h2>Church</h2>
+    <p><strong>MOBOLUWADURO BAPTIST CHURCH OKE-BAAKI, OGBOMOSO.</strong></p>
+    <label class="row"><input type="checkbox" id="c1"><span>Confirm with church what we should provide for the choir</span></label>
+    <label class="row"><input type="checkbox" id="c2"><span>Prepare what church needs</span></label>
+  </section>
+
+  <!-- BANNER -->
+  <section>
+    <h2>Banner</h2>
+    <p><strong>Banner (quoted):</strong> <span class="amount">₦25,000</span></p>
+    <label class="row"><input type="checkbox" id="b1"><span>Order banner</span></label>
+  </section>
+
+  <!-- INVITATION CARDS -->
+  <section>
+    <h2>Invitation cards</h2>
+    <p><strong>Hard copy invitation card:</strong> <span class="amount">₦180,000</span></p>
+    <p><strong>Soft copy design:</strong> <span class="amount">₦5,000</span></p>
+    <label class="row"><input type="checkbox" id="i1"><span>Order hard copy invitation cards</span></label>
+    <label class="row"><input type="checkbox" id="i2"><span>Order soft copy design</span></label>
+  </section>
+
+  <!-- T-SHIRTS -->
+  <section>
+    <h2>T-shirts</h2>
+    <p><strong>T-shirt:</strong> <span class="amount">₦2,500</span> | <strong>With picture:</strong> <span class="amount">₦4,500</span></p>
+    <p><strong>100 pieces:</strong> <span class="amount">₦486,000</span></p>
+    <p class="note">I want to know everyone’s opinion.</p>
+    <label class="row"><input type="checkbox" id="t1"><span>Order 100 pieces T-shirts – <span class="amount">₦486,000</span></span></label>
+  </section>
+
+  <!-- BAGS -->
+  <section>
+    <h2>Bags</h2>
+    <p><strong>Blue with picture:</strong> <span class="amount">₦2,500</span> | <strong>White with picture (chosen):</strong> <span class="amount">₦2,000</span></p>
+    <p><strong>200 pieces:</strong> <span class="amount">₦400,000</span></p>
+    <label class="row"><input type="checkbox" id="bag1"><span>Order 200 pieces bags (white with picture) – <span class="amount">₦400,000</span></span></label>
+  </section>
+
+  <!-- JOTTER -->
+  <section>
+    <h2>Jotter</h2>
+    <p><strong>Sample without pen</strong> (with pen would be ₦100,000). <strong>100 pieces:</strong> <span class="amount">₦85,000</span></p>
+    <label class="row"><input type="checkbox" id="j1"><span>Order 100 pieces jotter – <span class="amount">₦85,000</span></span></label>
+  </section>
+
+  <!-- GRAND TOTAL -->
+  <section style="background: #e8f4e8; border: 2px solid #0a5f0a;">
+    <h2>Grand total (everyone can see)</h2>
+    <p>Venue: <span class="amount">₦800,000</span></p>
+    <p>Food items: <span class="amount">₦1,175,000</span></p>
+    <p>Hard copy invitation: <span class="amount">₦180,000</span></p>
+    <p>Soft copy: <span class="amount">₦5,000</span></p>
+    <p>Banner: <span class="amount">₦25,000</span></p>
+    <p>100 pcs T-shirts: <span class="amount">₦486,000</span></p>
+    <p>200 pcs bags: <span class="amount">₦400,000</span></p>
+    <p>100 pcs jotter: <span class="amount">₦85,000</span></p>
+    <p class="total">Estimated total: <span class="amount">₦3,156,000</span></p>
+    <p class="note">Add drinks and any other items when you know the amounts.</p>
+  </section>
+
+  <!-- DRINKS -->
+  <section>
+    <h2>Drinks</h2>
+    <label class="row"><input type="checkbox" id="d1"><span>Start buying drinks and store at our house in Ogbomoso</span></label>
+  </section>
+
+  <!-- SIBLINGS – EACH PERSON'S TASKS -->
+  <section class="person">
+    <h2>Isaac – tasks</h2>
+    <label class="row"><input type="checkbox" id="isaac1"><span>(Add tasks here)</span></label>
+  </section>
+
+  <section class="person">
+    <h2>Daddy Ruth – tasks</h2>
+    <label class="row"><input type="checkbox" id="ruth1"><span>(Add tasks here)</span></label>
+  </section>
+
+  <section class="person">
+    <h2>Daddy Ara – tasks</h2>
+    <label class="row"><input type="checkbox" id="ara1"><span>(Add tasks here)</span></label>
+  </section>
+
+  <section class="person">
+    <h2>Mummy David – tasks</h2>
+    <label class="row"><input type="checkbox" id="david1"><span>(Add tasks here)</span></label>
+  </section>
+
+  <section class="person">
+    <h2>Mummy Dare – tasks</h2>
+    <label class="row"><input type="checkbox" id="md1"><span>Thanksgiving cloths</span></label>
+    <label class="row"><input type="checkbox" id="md2"><span>Grinding elubo and yam flour</span></label>
+    <label class="row"><input type="checkbox" id="md3"><span>Calling the caterers</span></label>
+    <label class="row"><input type="checkbox" id="md4"><span>T-shirts for whole family</span></label>
+    <label class="row"><input type="checkbox" id="md5"><span>Spices</span></label>
+    <p><strong>Getting prices of:</strong></p>
+    <label class="row"><input type="checkbox" id="md6"><span>Umbrella</span></label>
+    <label class="row"><input type="checkbox" id="md7"><span>T-shirt</span></label>
+    <label class="row"><input type="checkbox" id="md8"><span>Bags</span></label>
+  </section>
+
+  <section class="person">
+    <h2>Daddy Sarah – tasks</h2>
+    <label class="row"><input type="checkbox" id="sarah1"><span>(Add tasks here)</span></label>
+  </section>
+
+  <!-- ASO OFI PAYMENT BREAKDOWN -->
+  <section>
+    <h2>Aso ofi payment breakdown</h2>
+    <img id="aso-ofi-img" src="ASO_OFI_PAYMENT_BREAKDOWN.png" alt="Aso ofi payment breakdown" style="max-width:100%; height:auto; border-radius:8px; display:block;">
+  </section>
+  <script>
+    (function() {
+      var img = document.getElementById('aso-ofi-img');
+      if (img) img.onerror = function() { this.src = 'ASO_OFI_PAYMENT_BREAKDOWN.jpg'; this.onerror = null; };
+    })();
+  </script>
+
+  <!-- OTHER -->
+  <section>
+    <h2>Other</h2>
+    <label class="row"><input type="checkbox" id="o1"><span>Aso ofi – details to be sent tomorrow</span></label>
+    <label class="row"><input type="checkbox" id="o2"><span>Find someone to assist Dad at home</span></label>
+  </section>
+
+  <p class="subtitle" style="margin-top: 24px;" id="save-status">Tap any row to tick. Ticks are shared with everyone with the link.</p>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    (function() {
+      // ========== SUPABASE SETUP: Put your project details here ==========
+      // Get these from https://supabase.com/dashboard after creating a project (see SUPABASE_SETUP.md)
+      var SUPABASE_URL = 'https://woaigrdbqvlxwbvqjjeg.supabase.co';  // e.g. 'https://xxxxx.supabase.co'
+      var SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndvYWlncmRicXZseHdidnFqamVnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE2Njk1MjEsImV4cCI6MjA4NzI0NTUyMX0.GEY-ztQS7cZrofm8Ka51QpurvDJIEeAWUa5MfoL3XmQ';  // long string from Project Settings > API
+
+      var TABLE = 'remembrance_plan';
+      var key = 'mummy_remembrance_plan';
+      var inputs = document.querySelectorAll('input[type="checkbox"]');
+
+      function useLocalStorage() {
+        inputs.forEach(function(inp) {
+          var saved = localStorage.getItem(key + '_' + inp.id);
+          if (saved === 'true') inp.checked = true;
+          inp.addEventListener('change', function() {
+            localStorage.setItem(key + '_' + inp.id, inp.checked);
+          });
+        });
+        document.getElementById('save-status').textContent = 'THANK  YOU!';
+      }
+
+      function applyState(state) {
+        if (!state) return;
+        state.forEach(function(row) {
+          var inp = document.getElementById(row.id);
+          if (inp) inp.checked = row.checked === true;
+        });
+      }
+
+      if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+        useLocalStorage();
+        return;
+      }
+
+      var supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+      // Load shared state on open
+      supabase.from(TABLE).select('id, checked').then(function(result) {
+        if (result.data) applyState(result.data);
+        inputs.forEach(function(inp) {
+          inp.addEventListener('change', function() {
+            supabase.from(TABLE).upsert({ id: inp.id, checked: inp.checked }, { onConflict: 'id' }).then(function() {
+              document.getElementById('save-status').textContent = 'Saved. Everyone with the link will see this.';
+              setTimeout(function() {
+                document.getElementById('save-status').textContent = 'Tap any row to tick. Ticks are shared with everyone with the link.';
+              }, 2000);
+            }).catch(function() {
+              localStorage.setItem(key + '_' + inp.id, inp.checked);
+            });
+          });
+        });
+      }).catch(function() {
+        useLocalStorage();
+      });
+    })();
+  </script>
+
+</body>
+</html>
